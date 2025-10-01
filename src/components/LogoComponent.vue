@@ -1,19 +1,28 @@
 <template>
-  <div class="Logo">
-    <a href="https://www.mercedes-benz.com/en/" target="_blank">
-      <img src="/mercedes L1.png" alt="MERCEDES">
-    </a>
+  <div class="logo">
+    <img src="/public/images/logo.jpg" alt="MotorHub Logo" class="logo-img" />
   </div>
 </template>
 
 <script>
 export default {
-  name: "LogoComponent"
-}
+  name: "LogoComponent",
+};
 </script>
 
 <style scoped>
-.Logo img {
-  width: 70px;
+.logo {
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center;     /* centers vertically if parent has height */
+  width: 100%;
+  padding: 20px 0;
+  background-color: white;
+}
+
+.logo-img {
+  width: 120px;  /* adjust size */
+  height: auto;
+  object-fit: contain;
 }
 </style>

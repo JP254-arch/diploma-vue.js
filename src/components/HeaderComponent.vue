@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h1><b><i>MERCEDES BENZ</i></b></h1>
+    <h1><b><i>MotorHub</i></b></h1>
   </header>
 </template>
 
@@ -12,9 +12,9 @@ export default {
 
 <style scoped>
 header {
-  background: #000;
+  background: #524242be;
   color: white;
   text-align: center;
-  padding: 15px;
+  padding: 2px;
 }
 </style>

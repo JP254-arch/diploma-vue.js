@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h1><b><i>MotorHub</i></b></h1>
+    <h1><b><i>MOTORHUB</i></b></h1>
   </header>
 </template>
 

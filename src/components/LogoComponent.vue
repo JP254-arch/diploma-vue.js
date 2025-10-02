@@ -1,6 +1,6 @@
 <template>
   <div class="logo">
-    <img src="/public/images/logo.jpg" alt="MotorHub Logo" class="logo-img" />
+    <img src="/images/logo.jpg" alt="MotorHub Logo" class="logo-img" />
   </div>
 </template>
 
